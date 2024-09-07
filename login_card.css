@@ -1,0 +1,152 @@
+/* .card{
+    width:400px;
+    border:2px solid black;
+    border-radius:25px;
+    padding:10px;
+    margin:10px;
+}
+img{
+    width:100%;
+    border-radius:25px;
+}
+h3{
+    color:red;
+
+}
+span{
+    color:#9d6f24;
+}
+h4{
+    text-align:right;
+    color: #3c787e;
+}
+#pets{
+display:flex;
+justify-content:space-evenly;
+}
+@media(max-width:376px){
+    #pets{
+        flex-wrap:wrap;
+    }
+} */
+ 
+ 
+ 
+ .card{
+    width: 300.418px;
+    height:407.656px;
+    border:2px solid black;
+    border-radius:25px;
+    padding:32px 16px 64px 16px;
+    background-color:white;
+  
+ }
+ .card h2{
+    height:37.16px;
+    width:300.42px;
+    margin-top:0px;
+    margin-bottom:8px;
+ }
+ .text_moto{
+    height:22.5px;
+    width:300.417px;
+    margin-top:32px;
+    text-align: right;
+ }
+ .text_moto a{
+    text-decoration: none;
+ }
+ .logo_box{
+    width:300.42px;
+    height:125px;
+    margin-top:32px;
+   
+ }
+ .logo_box .or{
+    margin-top:40px;
+    width:295.3px;
+    height:24px;
+    margin-bottom: 40px;
+    text-align:center;
+ }
+ .logos{
+    width:300.42px;
+    height:40px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:4px;
+ }
+ .logos button{
+    height:40px;
+    width:147.71px;
+    padding:1px 6px 1px 6px;
+    border:0.67px;
+ }
+ .inside{
+    display:grid;
+    /* grid-template-rows:auto; */
+    grid-template-columns:auto auto;
+    column-gap:0.1px;
+    align-items:center;
+    /* border:20px solid black; */
+    border-radius:10px;
+   
+ }
+ .logos button{
+    border:2px solid black;
+ }
+ 
+ .card .form{
+    width:287.3px;
+    height:143px;
+    margin-top:16px;
+    margin-right:8px;
+    
+
+    
+ }
+  .form .inside-form_class{
+    display:flex;
+    height:100%;
+ 
+ }
+ .inside-form_class form{
+    display:grid;
+    grid-template-rows:83px 20px 40px;
+ }
+ .inside-form_class .take-data{
+    display:grid;
+    grid-template-rows:auto auto ;
+    width:287.3px;
+    grid-gap:7px;
+ }
+
+ .card form input{
+    border:0.667px solid black;
+    border-radius:7px;
+    padding-left:10px;
+    padding-right:10px;
+ }
+ form .action{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:7px;
+ }
+ 
+ .action .forgot a{
+    text-decoration: none;
+
+ }
+ .login{
+    background-color: rgb(24, 117, 24);
+    color:white;
+    border-radius:7px;
+    padding:1px 6px 1px 6px;
+
+ }
+ .forgot{
+    background-color:white;
+    border-radius: 7px;
+    border:0.667px solid black;
+    padding:1px 6px 1px 6px;
+ }
